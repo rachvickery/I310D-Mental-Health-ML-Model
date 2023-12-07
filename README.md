@@ -7,6 +7,7 @@ Our group aimed to tackle the challenge of limited mental health resources in un
 
 ### Dataset Description
 #### Original Dataset (Dataset 1)
+Data Source: [Kaggle](https://www.kaggle.com/datasets/souvikahmed071/social-media-and-mental-health) - published under [Open Data Commons Open Database License (ODbL) v1.0](https://opendatacommons.org/licenses/odbl/1-0/)
 - **Categories Included:**
   - Personal Information: Age, Gender, Relationship Status, Occupation, Affiliation
   - Social Media Usage: Platforms Used, Time Spent on Social Media
@@ -33,7 +34,18 @@ Our group aimed to tackle the challenge of limited mental health resources in un
   - Utilizes a redesigned binary outcome (0 for not at risk, 1 for risk) with emphasis on section-based averages signaling mental health risk.
 
 ### Tools and Technologies
-Our analysis primarily involved Python on Google Colab. We utilized various libraries, including Pandas, Numpy, Matplotlib, Seaborn, and DataPrep EDA, for data visualization, analysis, and preprocessing.
+Our analysis primarily involved Python on Google Colab. The multilayer perceptron (MLP) classifier was used for the binary classification. We also utilized various libraries, including Pandas, Numpy, Matplotlib, Seaborn, and DataPrep EDA, for data visualization, analysis, and preprocessing.
 
 ### Conclusion
 Our efforts focused on creating a predictive model to identify individuals at potential mental health risk among university students and employees. By leveraging machine learning on the provided dataset and a synthetic test dataset, we aimed to enhance the accessibility and effectiveness of mental health resources in educational settings.
+
+### Libraries & Packages
+- [Pandas](https://pandas.pydata.org/docs/reference/index.html)
+- [Numpy](https://numpy.org/doc/)
+- [Matplotlib](https://matplotlib.org/stable/index.html)
+- [Seaborn](https://github.com/mwaskom/seaborn)
+- [scikit-learn](https://github.com/mwaskom/seaborn)
+- [DataPrep EDA](https://docs.dataprep.ai/user_guide/eda/introduction.html)
+
+### License
+[MIT License](https://opensource.org/license/mit/)
